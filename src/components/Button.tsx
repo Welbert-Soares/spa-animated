@@ -2,7 +2,7 @@
 type ButtonProps = {
   id: string;
   title: string;
-  leftIcon: React.ReactNode;
+  leftIcon?: React.ReactNode;
   rightIcon?: React.ReactNode;
   containerClass: string;
 }
