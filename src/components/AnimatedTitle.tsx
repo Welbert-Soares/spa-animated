@@ -3,7 +3,8 @@ import gsap from "gsap";
 
 type AnimatedTitleProps = {
   title: string;
-  containerClass: string;
+  containerClass?: string;
+  className?: string;
 }
 
 const AnimatedTitle = ({ title, containerClass }: AnimatedTitleProps) => {

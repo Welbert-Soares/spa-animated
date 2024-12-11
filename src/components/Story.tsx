@@ -5,7 +5,7 @@ import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
 import RoundedCorners from "./RoundedCorners";
 
-const FloatingImage = () => {
+const Story = () => {
   const frameRef = useRef<HTMLImageElement>(null);
 
   interface MouseMoveEvent extends React.MouseEvent<HTMLImageElement> { }
@@ -100,4 +100,4 @@ const FloatingImage = () => {
   );
 };
 
-export default FloatingImage;
+export default Story;

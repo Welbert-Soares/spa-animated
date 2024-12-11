@@ -1,8 +1,9 @@
 import About from "./components/About"
+import Contact from "./components/Contact"
 import Features from "./components/Features"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
-import FloatingImage from "./components/Story"
+import Story from "./components/Story"
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Hero />
       <About />
       <Features />
-      <FloatingImage />
+      <Story />
+      <Contact />
     </main>
   )
 }
