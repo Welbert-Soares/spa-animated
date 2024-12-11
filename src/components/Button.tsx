@@ -7,9 +7,9 @@ type ButtonProps = {
   containerClass: string;
 }
 
-const Button = ({id, rightIcon,containerClass, leftIcon,title}: ButtonProps) => {
+const Button = ({ id, rightIcon, containerClass, leftIcon, title }: ButtonProps) => {
   return (
-    <button id={id} className={`group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black ${containerClass}`}>
+    <button id={id} type="button" className={`group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black ${containerClass}`}>
       {leftIcon}
 
 
